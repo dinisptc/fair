@@ -1,0 +1,110 @@
+
+<section class="section" id="head">
+
+	<div class="container">
+
+		<h2 class="text-center title"><?php echo $this->translate('Currency fair test'); ?></h2>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-left">
+<?php
+
+$title = $this->translate('Fair Results');
+$this->headTitle($title);
+
+?>
+<!--<h1><?php // echo $this->escapeHtml($title); ?></h1>-->
+<?php
+
+$form = $this->form;
+$form->setAttribute('action', $this->url('application/faircalc', array('action' => 'faircalc')));
+$form->prepare();
+
+//        {"userId": "134256", 
+//                "currencyFrom": "EUR",
+//                "currencyTo": "GBP", 
+//                "amountSell": 1000,
+//                "amountBuy": 747.10,
+//                "rate": 0.7471,
+//                "timePlaced" : "24-JAN-15 10:27:44",
+//                "originatingCountry" : "FR"}
+
+echo $this->form()->openTag($form) . PHP_EOL;
+
+echo $this->formLabel($form->get('userId'));
+echo $this->formElement($form->get('userId'));
+echo $this->formElementErrors($form->get('userId'));
+
+echo $this->formLabel($form->get('currencyFrom'));
+echo $this->formElement($form->get('currencyFrom'));
+echo $this->formElementErrors($form->get('currencyFrom'));
+
+echo $this->formLabel($form->get('currencyTo'));
+echo $this->formElement($form->get('currencyTo'));
+echo $this->formElementErrors($form->get('currencyTo'));
+
+echo $this->formLabel($form->get('amountSell'));
+echo $this->formElement($form->get('amountSell'));
+echo $this->formElementErrors($form->get('amountSell'));
+
+echo $this->formLabel($form->get('amountBuy'));
+echo $this->formElement($form->get('amountBuy'));
+echo $this->formElementErrors($form->get('amountBuy'));
+
+echo $this->formLabel($form->get('rate'));
+echo $this->formElement($form->get('rate'));
+echo $this->formElementErrors($form->get('rate'));
+
+echo $this->formLabel($form->get('timePlaced'));
+echo $this->formElement($form->get('timePlaced'));
+echo $this->formElementErrors($form->get('timePlaced'));
+
+echo $this->formLabel($form->get('originatingCountry'));
+echo $this->formElement($form->get('originatingCountry'));
+echo $this->formElementErrors($form->get('originatingCountry'));
+
+
+    echo $this->formElement($form->get('submit'));
+    echo $this->formElementErrors($form->get('submit'));
+
+echo $this->form()->closeTag($form) . PHP_EOL;
+
+
+?>
+   
+<table class="table">
+<tr>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+</tr>
+<?php
+
+echo $search_by;
+?><br><?php
+
+if($formdata!=null)
+{
+             echo ('userId : '.$formdata['userId']); ?><br><?php
+             echo ('currencyFrom : '.$formdata['currencyFrom']); ?><br><?php
+             echo ('currencyTo : '.$formdata['currencyTo']); ?><br><?php
+             echo ('amountSell : '.$formdata['amountSell']); ?><br><?php   
+             echo ('amountBuy : '.$formdata['amountBuy']); ?><br><?php
+             echo ('rate : '.$formdata['rate']); ?><br><?php  
+             echo ('timePlaced : '.$formdata['timePlaced']); ?><br><?php   
+             echo ('originatingCountry : '.$formdata['originatingCountry']);  ?><br><?php
+              
+}
+?>
+</table>
+
+
+
+
+
+
+
+			</div>
+		</div>
+</div>
+    
+    </section>

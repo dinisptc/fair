@@ -1,0 +1,134 @@
+<section class="section" id="head">
+
+	<div class="container">
+
+		<h2 class="text-center title"><?php echo $this->translate('Contacts'); ?></h2>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-left">
+
+<?php		
+$title = $this->translate('Contacts by email to inquire about imo4.com');
+$this->headTitle($title);
+
+
+
+$des = $this->translate('Please, Contact me trough the form i will reply in due time, thanks');
+     
+   
+$this->placeholder('description')->append($des);
+
+?>
+
+
+            
+            
+
+
+
+
+
+<?php
+
+$form = $this->form;
+
+
+// Assuming the "contact/process" route exists...
+$form->setAttribute('action', $this->url('application/contactos'));
+
+$form->prepare();
+
+
+echo $this->form()->openTag($form) . PHP_EOL;
+
+
+
+
+
+?>
+
+<div class="row uniform">
+
+
+    
+    <div class="6u 12u(small)">
+
+
+<?php 
+ 
+    echo $this->formElement($form->get('name'));
+    echo $this->formElementErrors($form->get('name'));
+?></div>
+
+
+    
+    
+<div class="6u 12u(small)">
+
+
+<?php 
+   
+    echo $this->formElement($form->get('email'));
+    echo $this->formElementErrors($form->get('email'));
+?>
+</div>
+
+<div class="12u">
+
+
+    
+</div><?php 
+   
+    echo $this->formElement($form->get('mensagem'));
+    echo $this->formElementErrors($form->get('mensagem'));
+?></div>
+
+<div class="12u text-center">
+    <br><br>
+    <ul class="actions">
+    <?php 
+    echo $this->formElement($form->get('submit'));
+    echo $this->formElementErrors($form->get('submit'));
+    
+  
+?>  </ul></div>
+
+
+<?php
+
+if($this->mensagemerro==1)
+{
+    ?><div class="text-center"><?php
+    echo $this->translate('Email sent successfully');
+    ?></div><?php
+    
+}elseif($this->mensagemerro==0)
+{
+     ?><div class="text-center"><?php
+    echo $this->translate('Email not sent');
+     ?></div><?php
+}
+
+echo $this->form()->closeTag($form) . PHP_EOL;
+
+
+
+?>
+
+
+
+			</div>
+		</div>
+</div>
+    
+    </section>
+
+
+
+<script>
+// jQuery stuff
+jQuery(document).ready(function($) {
+//$('.section').load(this,function(){}).fadeIn('slow');
+$('.section').fadeIn('slow');
+});
+</script>

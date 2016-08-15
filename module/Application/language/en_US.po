@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-10 12:32+0100\n"
+"PO-Revision-Date: 2016-08-10 12:32+0100\n"
+"Last-Translator: Evan Coury <me@evancoury.com>\n"
+"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Application/Form/MsgForm.php:23
+msgid "Your Name"
+msgstr ""
+
+#: ../src/Application/Form/MsgForm.php:35
+msgid "Your Message"
+msgstr ""
+
+#: ../src/Application/Form/MsgForm.php:49
+msgid "Your Email"
+msgstr ""
+
+#: ../src/Application/Form/MsgForm.php:63
+msgid "Send"
+msgstr ""
+
+#: ../view/application/index/contactos.phtml:5 ../view/layout/layout.phtml:118
+#: ../view/layout/layout.phtml:159
+msgid "Contacts"
+msgstr ""
+
+#: ../view/application/index/contactos.phtml:11
+msgid "Contacts by email to inquire about imo4.com"
+msgstr ""
+
+#: ../view/application/index/contactos.phtml:16
+msgid "Please, Contact me trough the form i will reply in due time, thanks"
+msgstr ""
+
+#: ../view/application/index/contactos.phtml:102
+msgid "Email sent successfully"
+msgstr ""
+
+#: ../view/application/index/contactos.phtml:108
+msgid "Email not sent"
+msgstr ""
+
+#: ../view/application/index/index.phtml:10
+msgid "Your Real Estate Website"
+msgstr ""
+
+#: ../view/application/index/index.phtml:14 ../view/layout/layout.phtml:121
+#: ../view/layout/layout.phtml:158
+msgid "Search"
+msgstr ""
+
+#: ../view/application/index/precos.phtml:10 ../view/layout/layout.phtml:98
+msgid "Pricing"
+msgstr ""
+
+#: ../view/application/index/precos.phtml:13
+msgid "For each ad with 3 months online : "
+msgstr ""
+
+#: ../view/application/index/precos.phtml:16
+msgid "5.00 euros taxes included"
+msgstr ""
+
+#: ../view/error/404.phtml:5 ../view/error/index.phtml:6
+msgid "Error"
+msgstr ""
+
+#: ../view/error/404.phtml:10
+msgid "A 404 error occurred"
+msgstr ""
+
+#: ../view/error/404.phtml:19
+msgid "The requested controller was unable to dispatch the request."
+msgstr ""
+
+#: ../view/error/404.phtml:22
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+
+#: ../view/error/404.phtml:25
+msgid "The requested controller was not dispatchable."
+msgstr ""
+
+#: ../view/error/404.phtml:28
+msgid "The requested URL could not be matched by routing."
+msgstr ""
+
+#: ../view/error/404.phtml:31
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr ""
+
+#: ../view/error/404.phtml:43
+msgid "Controller"
+msgstr ""
+
+#: ../view/error/404.phtml:50
+#, php-format
+msgid "resolves to %s"
+msgstr ""
+
+#: ../view/error/404.phtml:62 ../view/error/index.phtml:18
+msgid "Additional information"
+msgstr ""
+
+#: ../view/error/404.phtml:65 ../view/error/404.phtml:89
+#: ../view/error/index.phtml:21 ../view/error/index.phtml:45
+msgid "File"
+msgstr ""
+
+#: ../view/error/404.phtml:69 ../view/error/404.phtml:93
+#: ../view/error/index.phtml:25 ../view/error/index.phtml:49
+msgid "Message"
+msgstr ""
+
+#: ../view/error/404.phtml:73 ../view/error/404.phtml:97
+#: ../view/error/index.phtml:29 ../view/error/index.phtml:53
+msgid "Stack trace"
+msgstr ""
+
+#: ../view/error/404.phtml:83 ../view/error/index.phtml:39
+msgid "Previous exceptions"
+msgstr ""
+
+#: ../view/error/404.phtml:112 ../view/error/index.phtml:68
+msgid "No Exception available"
+msgstr ""
+
+#: ../view/error/index.phtml:11
+msgid "An error occurred"
+msgstr ""
+
+#: ../view/layout/layout.phtml:8
+msgid "Real Estate imo4.com"
+msgstr ""
+
+#: ../view/layout/layout.phtml:12
+msgid ""
+"www.imo4.com your real state website easy to use, in the imo4.com you can "
+"find houses,apartments,stores,industry, for rent and to sell."
+msgstr ""
+
+#: ../view/layout/layout.phtml:17
+msgid ""
+"imo4,flats,houses,to let,to rent,sell,buy,real estate,farms,land,urban land,"
+"apartaments,landlord,tenant"
+msgstr ""
+
+#: ../view/layout/layout.phtml:97 ../view/layout/layout.phtml:117
+#: ../view/layout/layout.phtml:155
+msgid "Home"
+msgstr "Home"
+
+#: ../view/layout/layout.phtml:103
+msgid "Logout"
+msgstr ""
+
+#: ../view/layout/layout.phtml:106 ../view/layout/layout.phtml:173
+msgid "Login"
+msgstr ""
+
+#: ../view/layout/layout.phtml:119
+msgid "All ads"
+msgstr ""
+
+#: ../view/layout/layout.phtml:120 ../view/layout/layout.phtml:157
+msgid "My ads"
+msgstr ""
+
+#: ../view/layout/layout.phtml:153
+msgid "Links"
+msgstr ""
+
+#: ../view/layout/layout.phtml:156
+msgid "All Ads"
+msgstr ""
+
+#: ../view/layout/layout.phtml:163
+msgid "Languages"
+msgstr ""
+
+#: ../view/layout/layout.phtml:170
+msgid "Users"
+msgstr ""
+
+#: ../view/layout/layout.phtml:172
+msgid "Module Users"
+msgstr ""
+
+#: ../view/layout/layout.phtml:174
+msgid "Register Free"
+msgstr ""
+
+#: ../view/layout/layout.phtml:181
+msgid "Approve Ads"
+msgstr ""
+
+#: ../view/layout/layout.phtml:182
+msgid "Expired Ads"
+msgstr ""
+
+#: ../view/layout/layout.phtml:187
+msgid "Social"
+msgstr ""
+
+#: ../view/layout/layout.phtml:202
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#~ msgid "Forum"
+#~ msgstr "Forum"
+
+#~ msgid "O site do Dinis"
+#~ msgstr "The Dinis Website"
+
+#~ msgid "Entrar"
+#~ msgstr "Login"
+
+#~ msgid "Bem-Vindo ao site do dinis"
+#~ msgstr "Welcome to the dinis website"
+
+#~ msgid "present2"
+#~ msgstr "Hello i am dinis"

@@ -1,0 +1,680 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-10 12:35+0100\n"
+"PO-Revision-Date: 2016-08-10 12:35+0100\n"
+"Last-Translator: Diogo Melo <dmelo87@gmail.com>\n"
+"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Application/Form/MsgForm.php:23
+msgid "Your Name"
+msgstr "O teu nome"
+
+#: ../src/Application/Form/MsgForm.php:35
+msgid "Your Message"
+msgstr "A tua Mensagem"
+
+#: ../src/Application/Form/MsgForm.php:49
+msgid "Your Email"
+msgstr "O teu email"
+
+#: ../src/Application/Form/MsgForm.php:63
+msgid "Send"
+msgstr "Enviar"
+
+#: ../view/application/index/contactos.phtml:5 ../view/layout/layout.phtml:118
+#: ../view/layout/layout.phtml:159
+msgid "Contacts"
+msgstr "Contactos"
+
+#: ../view/application/index/contactos.phtml:11
+msgid "Contacts by email to inquire about imo4.com"
+msgstr "Contacte por email para saber mais sobre imo4.com"
+
+#: ../view/application/index/contactos.phtml:16
+msgid "Please, Contact me trough the form i will reply in due time, thanks"
+msgstr ""
+"Por favor entre em contacto através do formulário que será respondido com "
+"tempo, obrigado"
+
+#: ../view/application/index/contactos.phtml:102
+msgid "Email sent successfully"
+msgstr "Mensagem enviada com sucesso"
+
+#: ../view/application/index/contactos.phtml:108
+msgid "Email not sent"
+msgstr "Mensagem não enviada"
+
+#: ../view/application/index/index.phtml:10
+msgid "Your Real Estate Website"
+msgstr "O teu Website de Imoveis"
+
+#: ../view/application/index/index.phtml:14 ../view/layout/layout.phtml:121
+#: ../view/layout/layout.phtml:158
+msgid "Search"
+msgstr "Pesquisa"
+
+#: ../view/application/index/precos.phtml:10 ../view/layout/layout.phtml:98
+msgid "Pricing"
+msgstr "Preços"
+
+#: ../view/application/index/precos.phtml:13
+msgid "For each ad with 3 months online : "
+msgstr "Por cada anuncio com 3 meses online :"
+
+#: ../view/application/index/precos.phtml:16
+msgid "5.00 euros taxes included"
+msgstr "5.00 euros impostos incluidos"
+
+#: ../view/error/404.phtml:5 ../view/error/index.phtml:6
+msgid "Error"
+msgstr "Erro"
+
+#: ../view/error/404.phtml:10
+msgid "A 404 error occurred"
+msgstr "Ocorreu um erro 404"
+
+#: ../view/error/404.phtml:19
+msgid "The requested controller was unable to dispatch the request."
+msgstr "O controlador requisitado não foi capaz de despachar a requisição."
+
+#: ../view/error/404.phtml:22
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+"O controlador requisitados não pode ser mapeado a uma classe de controlador "
+"existente."
+
+#: ../view/error/404.phtml:25
+msgid "The requested controller was not dispatchable."
+msgstr "O controlador requisitado não foi despachado."
+
+#: ../view/error/404.phtml:28
+msgid "The requested URL could not be matched by routing."
+msgstr "A URL requisitada não pode ser encontrada em uma rota."
+
+#: ../view/error/404.phtml:31
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "Não foi possível determinar o motivo do 404 ter ocorrido."
+
+#: ../view/error/404.phtml:43
+msgid "Controller"
+msgstr "Controlador"
+
+#: ../view/error/404.phtml:50
+#, php-format
+msgid "resolves to %s"
+msgstr "resolve como %s"
+
+#: ../view/error/404.phtml:62 ../view/error/index.phtml:18
+msgid "Additional information"
+msgstr "Informação adicional"
+
+#: ../view/error/404.phtml:65 ../view/error/404.phtml:89
+#: ../view/error/index.phtml:21 ../view/error/index.phtml:45
+msgid "File"
+msgstr "Arquivo"
+
+#: ../view/error/404.phtml:69 ../view/error/404.phtml:93
+#: ../view/error/index.phtml:25 ../view/error/index.phtml:49
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../view/error/404.phtml:73 ../view/error/404.phtml:97
+#: ../view/error/index.phtml:29 ../view/error/index.phtml:53
+msgid "Stack trace"
+msgstr "Pilha de execução"
+
+#: ../view/error/404.phtml:83 ../view/error/index.phtml:39
+msgid "Previous exceptions"
+msgstr "Exceções anteriores"
+
+#: ../view/error/404.phtml:112 ../view/error/index.phtml:68
+msgid "No Exception available"
+msgstr "Nenhuma exceção disponível"
+
+#: ../view/error/index.phtml:11
+msgid "An error occurred"
+msgstr "Ocorreu um erro"
+
+#: ../view/layout/layout.phtml:8
+msgid "Real Estate imo4.com"
+msgstr "Imobiliário imo4.com"
+
+#: ../view/layout/layout.phtml:12
+msgid ""
+"www.imo4.com your real state website easy to use, in the imo4.com you can "
+"find houses,apartments,stores,industry, for rent and to sell."
+msgstr ""
+"www.imo4.com o teu site de imoveis , fácil e intuitivo de usar , no imo4 ."
+"com pode encontrar, casas, apartamentos, lojas, armazéns, terrenos, para "
+"alugar e para vender"
+
+#: ../view/layout/layout.phtml:17
+msgid ""
+"imo4,flats,houses,to let,to rent,sell,buy,real estate,farms,land,urban land,"
+"apartaments,landlord,tenant"
+msgstr ""
+"imo4,apartamentos,casas,moradias,para alugar, para arrendar, vender, "
+"comprar, imoveis , quintas, fazendas, terrenos, terrenos urbanos, lotes, "
+"senhorio, inquilinos "
+
+#: ../view/layout/layout.phtml:97 ../view/layout/layout.phtml:117
+#: ../view/layout/layout.phtml:155
+msgid "Home"
+msgstr "Início"
+
+#: ../view/layout/layout.phtml:103
+msgid "Logout"
+msgstr "Sair"
+
+#: ../view/layout/layout.phtml:106 ../view/layout/layout.phtml:173
+msgid "Login"
+msgstr "Entrar"
+
+#: ../view/layout/layout.phtml:119
+msgid "All ads"
+msgstr "Todos os Anúncios"
+
+#: ../view/layout/layout.phtml:120 ../view/layout/layout.phtml:157
+msgid "My ads"
+msgstr "Meus anuncios"
+
+#: ../view/layout/layout.phtml:153
+msgid "Links"
+msgstr "Menu"
+
+#: ../view/layout/layout.phtml:156
+msgid "All Ads"
+msgstr "Todos os Anúncios"
+
+#: ../view/layout/layout.phtml:163
+msgid "Languages"
+msgstr "Linguagens"
+
+#: ../view/layout/layout.phtml:170
+msgid "Users"
+msgstr "Utilizadores"
+
+#: ../view/layout/layout.phtml:172
+msgid "Module Users"
+msgstr "Modulo Utilizadores"
+
+#: ../view/layout/layout.phtml:174
+msgid "Register Free"
+msgstr "Registo Grátis"
+
+#: ../view/layout/layout.phtml:181
+msgid "Approve Ads"
+msgstr "Aprovar Anúncios"
+
+#: ../view/layout/layout.phtml:182
+msgid "Expired Ads"
+msgstr "Anúncios Expirados"
+
+#: ../view/layout/layout.phtml:187
+msgid "Social"
+msgstr "Social"
+
+#: ../view/layout/layout.phtml:202
+msgid "All rights reserved."
+msgstr "Todos os direitos reservados."
+
+#~ msgid ""
+#~ "The dinispt.com is a software house based in portugal, we have experience "
+#~ "on several technologies .net to c/c++ posix to php native or mvc with "
+#~ "zend and codeigniter"
+#~ msgstr ""
+#~ "A dinispt.com é uma software house com sede em Portugal, temos "
+#~ "experiencia em varias tecnologias desde .NET a C/C++ Posix, a PHP nativo, "
+#~ "e MVC com zend 2 e codeigniter"
+
+#~ msgid ""
+#~ "Software,Developers,Freelancer,C++,C,C#,LINQ,WindowsForms,bind,apache,"
+#~ "linux,ubuntu,postfix,dns,dovecot,mysql,zend framework2,doctrine2,"
+#~ "codeigniter,webservices,php,websites,agency,digital,web marketing,digital "
+#~ "marketing,development"
+#~ msgstr ""
+#~ "Software,Programadores,Freelancer,C++,C,C#,LINQ, Windows Forms,bind,"
+#~ "apache,linux,ubuntu,postfix,dns,dovecot,mysql,zend framework2,doctrine2,"
+#~ "codeigniter,webservices,php,websites,agency,digital,web marketing,digital "
+#~ "marketing,desenvolvimento"
+
+#~ msgid "Contacts by email to inquire about dinispt.com"
+#~ msgstr "Entre em contacto por email para saber mais sobre a dinispt.com"
+
+#~ msgid ""
+#~ "This my work history after finishing my school degree in computer science"
+#~ msgstr ""
+#~ "Esta é a historia de trabalho depois de acabar o curso em engenharia "
+#~ "informatica"
+
+#~ msgid ""
+#~ "i have a 15+ experience developing applications for telecomunications, "
+#~ "public sector , industry, my main languages are C/C++,C#,PHP"
+#~ msgstr ""
+#~ "eu tenho mais 15 anos de experiencia a desenvolver aplicações para "
+#~ "telecomunicações , sector publico e industria , as tecnologias principais "
+#~ "são C/C++,C# e PHP"
+
+#~ msgid ""
+#~ "Working on etiju.com website using php5 zend2 and doctrine2, mysql,html "
+#~ "css and javascript/jquery"
+#~ msgstr ""
+#~ "A Programar para o site etiju.com com php5 zend2 e doctrine2, mysql,html "
+#~ "css e javascript"
+
+#~ msgid ""
+#~ "Developed website for a construction company, using php, hosting and "
+#~ "domain registration"
+#~ msgstr ""
+#~ "Site para uma construtora desenvolvido com php, e também com serviço de "
+#~ "alojamento e registo de dominio"
+
+#~ msgid ""
+#~ ".Net C#, WindowsForms application programming with SQL Server and Linq, "
+#~ "Entity Framework"
+#~ msgstr ""
+#~ "Programação em windowsforms de aplicação windows com .NET C#, SQL Server, "
+#~ "Linq e a Entity Framework"
+
+#~ msgid ""
+#~ "Windows Mobile and Android SQLite programming, for a company from Porto"
+#~ msgstr ""
+#~ "Programação para windows mobile e android SQLite para uma empresa do Porto"
+
+#~ msgid ""
+#~ "Developed web application using .NET C# webforms, with SQLServer , Linq "
+#~ "to SQL, for a company from Porto"
+#~ msgstr ""
+#~ "Desenvolvimento de intranet usando ASP.NET Webforms, C#, SQL Server, Linq "
+#~ "to SQL para uma empresa do Porto"
+
+#~ msgid ""
+#~ "Developed web application and webservice using php5 with codeigniter and "
+#~ "mysql, for a swiss company as remote worker"
+#~ msgstr ""
+#~ "Desenvolvimento de aplicação web e webservice com php e codeigniter com "
+#~ "mySQL, para uma empresa Suíça, remotamente"
+
+#~ msgid ""
+#~ "Developed web application using ASP.NET C#, MVC3 Razor, SQL Server, Linq "
+#~ "to Entities"
+#~ msgstr ""
+#~ "Desenvolvimento de aplicação web com ASP.NET C#, MVC3 Razor, SQL Server e "
+#~ "Linq to Entities"
+
+#~ msgid ""
+#~ "Rollout of a bank , installing computers at the bank agencies, in Portugal"
+#~ msgstr "Instalação de computadores nas agencias de um banco na zona centro "
+
+#~ msgid ""
+#~ "Developed web application using ASP.NET C#, MVC2, SQL Server, Linq to "
+#~ "Entities"
+#~ msgstr ""
+#~ "Desenvolvimento de aplicação web com ASP.NET C#, MVC2, SQL Server, Linq "
+#~ "to Entities"
+
+#~ msgid ""
+#~ "Developed web application using PHP5 Codeigniter , MySQL, for an "
+#~ "advertising company"
+#~ msgstr ""
+#~ "Desenvolvimento de aplicação web com php codeigniter, mySQL, para uma "
+#~ "agência de publicidade "
+
+#~ msgid ""
+#~ "Developed web application using ASP.NET C#, Webforms, SQL Server, SQL "
+#~ "Stored Procedures"
+#~ msgstr ""
+#~ "Desenvolvimento de aplicação web com ASP.NET C# Webforms SQL Server e SQL "
+#~ "Stored Procedures"
+
+#~ msgid ""
+#~ "Developed web application using ASP.NET C#, Webforms, SQL Server, SQL "
+#~ "Stored Procedures, for the WMS application"
+#~ msgstr ""
+#~ "Desenvolvimento de aplicação web com ASP.NET C#, Webforms, SQL Server SQL "
+#~ "Stored PRocedures para uma intranet"
+
+#~ msgid "Developed, .NET C# and WCF."
+#~ msgstr "Desenvolvimento em .NET C# e WCF"
+
+#~ msgid "Developed,WindowsForms application using .NET C# on the Riposte API."
+#~ msgstr "Desenvolvimento de aplicação em windowsforms com .NET C# no Riposte"
+
+#~ msgid "Developed using HP-UX and C/C++ and PL/SQL and Oracle OCCI."
+#~ msgstr "Desenvolvimento em HP-UX , C/C++,  PL/SQL e Oracle OCCI."
+
+#~ msgid "Experience programming for Windows with .NET C# and SQL Server."
+#~ msgstr "Desenvolvimento para windows com .NET C# e SQL Server"
+
+#~ msgid "Developed source code for a ERP using Pascal, Delphi 2006."
+#~ msgstr "Desenvolvimento de código para um ERP com Pascal no Delphi"
+
+#~ msgid "MFC C++ and Directx"
+#~ msgstr "MFC C++ e  DirectX"
+
+#~ msgid ""
+#~ "Experience with C++/UML with Rhapsody using Real Time Montavista Linux."
+#~ msgstr "Programação com C++/UML no Rhapsody com o Montavista Linux"
+
+#~ msgid ""
+#~ "Worked for a large Portuguese company programming in C using HP-UX, and "
+#~ "PL/SQL with PL/SQL Developer."
+#~ msgstr "Programação em Oracle PL/SQL e C/C++, em HP-UX"
+
+#~ msgid "ELENA system maintenance, NAVE system Maintenance"
+#~ msgstr "Manutenção do ELENA e do NAVE"
+
+#~ msgid "VBSCRIPT ASP 3.0 programming"
+#~ msgstr "Programação em ASP"
+
+#~ msgid "Experience as Test Engineer programming automated tests."
+#~ msgstr "Programação de testes automatizados com o silktest"
+
+#~ msgid "Experience with C/C++ and Nucleus RTOS, Linux."
+#~ msgstr "Programação em C/C++ para Linux , com o Nucleus"
+
+#~ msgid "The index of Dinispt website"
+#~ msgstr "Este é o inicio de site da dinispt"
+
+#~ msgid "the dinispt website a digital agency base in coimbra portugal"
+#~ msgstr ""
+#~ "a dinispt é uma agencia digital com sede em Cantanhede Coimbra  Portugal"
+
+#~ msgid "Software Development Services"
+#~ msgstr "Prestação de serviços de desenvolvimento de Software"
+
+#~ msgid "Websites"
+#~ msgstr "Páginas de Internet"
+
+#~ msgid "Websites frontend designs, and backend development."
+#~ msgstr "Desenvolvimento de design e programação de páginas de internet"
+
+#~ msgid "Desktop Applications"
+#~ msgstr "Aplicações para Windows"
+
+#~ msgid "Windows desktop applications, database driven."
+#~ msgstr "Aplicações Windows para PC, com bases de dados"
+
+#~ msgid "Mobile Applications"
+#~ msgstr "Aplicações Móveis"
+
+#~ msgid ""
+#~ "Android and IOS programming, with webservices REST, to synchronize with "
+#~ "your website database"
+#~ msgstr ""
+#~ "Aplicações Moveis para android e ios com webservices, para ligar a bases "
+#~ "de dados em servidores "
+
+#~ msgid "Hosting"
+#~ msgstr "Alojamento"
+
+#~ msgid "Hosting your website in our linux servers."
+#~ msgstr "Alojamento de páginas de internet nos nossos servidores Linux"
+
+#~ msgid "Email Hosting"
+#~ msgstr "Alojamento de Emails"
+
+#~ msgid "Email service secure and fast in our servers."
+#~ msgstr "Serviço de email seguro e rápido nos nossos servidores"
+
+#~ msgid "Advertising campaigns"
+#~ msgstr "Campanhas Publicitárias"
+
+#~ msgid "Campaigns on the internet (Facebook,Google Adwords,Linkedin,Others)"
+#~ msgstr "Campanhas na internet (Facebook,Google Adwords Linkedin,Others)"
+
+#~ msgid "Our Team"
+#~ msgstr "A nossa equipa"
+
+#~ msgid ""
+#~ "This team is based in Coimbra,Portugal, we according to our contracts we "
+#~ "give work to freelancers, working remotely"
+#~ msgstr ""
+#~ "Esta equipa está baseada em Coimbra Portugal, e de acordo com os "
+#~ "contratos damos trabalho a freelancers."
+
+#~ msgid "Pedro"
+#~ msgstr "Pedro"
+
+#~ msgid "Join us"
+#~ msgstr "Junta-te a nós"
+
+#~ msgid "Logos from clients and employers"
+#~ msgstr "Logotipos de clientes e empregadores"
+
+#~ msgid "Companies where Dinis worked and working for , from 2001 until now :"
+#~ msgstr "Empresas onde o Dinis trabalhou e está a trabalhar desde 2001 "
+
+#~ msgid ""
+#~ "This some web projects that are online we work on many other but private "
+#~ "applications"
+#~ msgstr ""
+#~ "Estas aplicações podem ser vistas online , nós trabalhamos em muitos "
+#~ "outros que são privados "
+
+#~ msgid ""
+#~ "web project currently online , we are looking to win new accounts and "
+#~ "make much more projects like these"
+#~ msgstr ""
+#~ "estes projetos estão neste momento online , estamos a procura de novas "
+#~ "contas e fazer mais projetos como estes"
+
+#~ msgid ""
+#~ "Website developed with php5 and zf2 doctrine2 and mysql, still working "
+#~ "started november 2014"
+#~ msgstr ""
+#~ "Site desenvolvido com php5 e zf2 doctrine2 e mysql, ainda em "
+#~ "desenvolvimento que começou em novembro de 2014"
+
+#~ msgid "Low cost website using php and zf2 html and css"
+#~ msgstr "Website estático de baixo custo com php e zf2, HTML e css "
+
+#~ msgid ""
+#~ "This app was developed using php5 and codeigniter, this was a team of 4 "
+#~ "people, a very good swiss designer a ios mobile developer from porto and "
+#~ "me with the php and the webservice, and finally the boss."
+#~ msgstr ""
+#~ "Esta aplicação foi desenvolvida com php5 e codeigniter, a equipa era "
+#~ "composta por quatro elementos um designer suíço um programador mobile e "
+#~ "um programador php e o proprietário da empresa"
+
+#~ msgid ""
+#~ "This app was developed using microsoft .net framework, i only worked on "
+#~ "this project one month with a team of developers and designers, my job "
+#~ "was to fix bugs until the site went live."
+#~ msgstr ""
+#~ "Esta aplicação foi desenvolvida com tecnologias Microsoft , só trabalhei "
+#~ "um mês com esta equipa de programadores e designers o trabalho era "
+#~ "resolver erros detetados num auditoria até que o site ficou online e em "
+#~ "funcionamento"
+
+#~ msgid "Digital Agency dinispt.com"
+#~ msgstr "Agência Digital dinispt.com"
+
+#~ msgid "History"
+#~ msgstr "Histórico"
+
+#~ msgid "Projects"
+#~ msgstr "Projetos"
+
+#~ msgid "Forum"
+#~ msgstr "Forum"
+
+#~ msgid "Welcome to dinispt.com digital agency"
+#~ msgstr "Bem-vindo á dinispt.com agência digital "
+
+#~ msgid ""
+#~ "The dinispt.com is a software house based in portugal, we have experience "
+#~ "on several technologies since .net to c/c++ posix to php native or mvc "
+#~ "with zend and codeigniter"
+#~ msgstr ""
+#~ "A dinispt.com é uma software house com base em Portugal , temos "
+#~ "experiencia em varias tecnologias desde .net c/c++ posix e php de raiz ou "
+#~ "com mvc com zend e codeigniter"
+
+#~ msgid "etiju.com website"
+#~ msgstr "etiju.com pagina de internet"
+
+#~ msgid ""
+#~ "This website was developed using php with zend framework 2, doctrine2 and "
+#~ "mysql database.This project started in november 2014, the main goal was "
+#~ "to learn the zend framework."
+#~ msgstr ""
+#~ "Esta aplicação foi desenvolvida com php , com a zend Framework 2, "
+#~ "doctrine2 e mysql. Este projeto foi iniciado em novembro de 2014 e o "
+#~ "principal objetivo foi aprender a programar com a zend framework"
+
+#~ msgid "renovader21.com website"
+#~ msgstr "renovader21.com pagina de internet"
+
+#~ msgid ""
+#~ "This website was created for a customer, civil construction company, uses "
+#~ "also zend , but its just a presentation website,"
+#~ msgstr ""
+#~ "Esta pagina foi criada para uma empresa cliente, de construção civil, "
+#~ "também foi usada a zend Framework , mas é só uma pagina de apresentação"
+
+#~ msgid "Email sent successfuly"
+#~ msgstr "Mensagem enviada com sucesso"
+
+#~ msgid " Your Email"
+#~ msgstr "O teu Email"
+
+#~ msgid "Contacts for dinispt digital agency,Cantanhede, Coimbra, Portugal"
+#~ msgstr ""
+#~ "Estes são os contactos para a dinispt.com agencia digital, em  "
+#~ "Cantanhede, Coimbra, Portugal"
+
+#~ msgid "Contacts for dinispt digital agency, Cantanhede Coimbra, Portugal"
+#~ msgstr ""
+#~ "Estes são os contactos para a dinispt.com agencia digital, em  "
+#~ "Cantanhede, Coimbra, Portugal"
+
+#~ msgid "Welcome to Dinis Website"
+#~ msgstr "Benvindo  ao site do Dinis"
+
+#~ msgid "Web Development"
+#~ msgstr "Desenvolvimento Web"
+
+#~ msgid "Software Development"
+#~ msgstr "Desenvolvimento de Software"
+
+#~ msgid "Dinis is a Portuguese Software developer this is my website"
+#~ msgstr "O Dinis é um engenheiro de software Português e este é o meu site "
+
+#~ msgid "O site do Dinis"
+#~ msgstr "O site do Dinis"
+
+#~ msgid "Dinis is a Portuguese Software developer this its my website"
+#~ msgstr "O Dinis é um engenheiro de software Português"
+
+#~ msgid "Jobs"
+#~ msgstr "Empregos"
+
+#~ msgid "Entrar"
+#~ msgstr "Entrar"
+
+#~ msgid "Bem-Vindo ao site do dinis"
+#~ msgstr "Bem-Vindo ao site do dinis"
+
+#~ msgid "present"
+#~ msgstr ""
+#~ "Este é um site de programação onde podes colocar questões, ler artigos, "
+#~ "procurar emprego na área de programação"
+
+#~ msgid "present2"
+#~ msgstr "Olá eu sou o dinis"
+
+#~ msgid "Welcome to %sZend Framework 2%s"
+#~ msgstr "Bem vindo ao %sZend Framework 2%s"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed the %sZF2 Skeleton "
+#~ "Application%s. You are currently running Zend Framework version %s. This "
+#~ "skeleton can serve as a simple starting point for you to begin building "
+#~ "your application on ZF2."
+#~ msgstr ""
+#~ "Parabéns! Você instalou a %sAplicação Skeleton ZF2%s com sucesso. Você "
+#~ "está usando a versão %s do Zend Framework. Este esqueleto serve "
+#~ "simplesmente como um ponto de inicio na construção da sua aplicação ZF2."
+
+#~ msgid "Fork Zend Framework 2 on GitHub"
+#~ msgstr "Replique Zend Framework 2 no GitHub"
+
+#~ msgid ""
+#~ "Zend Framework 2 is under active development. If you are interested in "
+#~ "following the development of ZF2, there is a special ZF2 portal on the "
+#~ "official Zend Framework website which provides links to the ZF2 %swiki%s, "
+#~ "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource "
+#~ "for staying up to date with the latest developments!"
+#~ msgstr ""
+#~ "Zend Framework 2 está sob desenvolvimento ativo. Se vocês está "
+#~ "interessado em acompanhar o desenvolvimento do ZF2, tem um portal ZF2 "
+#~ "especial no site oficial do Zend Framework que possui links para ZF2 "
+#~ "%swiki%s, %sdev blog%s, %sissue tracker%s, dentre outros. Este é um "
+#~ "excelente material para se manter atualizado com os últimos "
+#~ "desenvolvimentos!"
+
+#~ msgid "ZF2 Development Portal"
+#~ msgstr "Portal de Desenvolvimento do ZF2"
+
+#~ msgid "Discover Modules"
+#~ msgstr "Descubra Módulos"
+
+#~ msgid ""
+#~ "The community is working on developing a community site to serve as a "
+#~ "repository and gallery for ZF2 modules. The project is available %son "
+#~ "GitHub%s. The site is currently live and currently contains a list of "
+#~ "some of the modules already available for ZF2."
+#~ msgstr ""
+#~ "A Comunidade está trabalhando em desenvolver um site comunitário para "
+#~ "servir como repositório e galeria de módulos ZF2. O projeto estará "
+#~ "disponível %sem breve no GitHub%s. O site já está online e atualmente "
+#~ "contém uma lista de alguns dos módulos já disponíveis para ZF2."
+
+#~ msgid "Explore ZF2 Modules"
+#~ msgstr "Explore Módulos ZF2"
+
+#~ msgid "Help &amp; Support"
+#~ msgstr "Ajuda &amp; Suporte"
+
+#~ msgid ""
+#~ "If you need any help or support while developing with ZF2, you may reach "
+#~ "us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+#~ "feedback you may have regarding the beta releases. Alternatively, you may "
+#~ "subscribe and post questions to the %smailing lists%s."
+#~ msgstr ""
+#~ "Caso você precise de ajuda ou suporte enquanto desenvolve com ZF2, pode "
+#~ "nos encontrar pelo %s#zftalk on Freenode%s. Vamos gostar muito de ouvir "
+#~ "perguntas e opiniões que você possa ter em relação às versões beta. "
+#~ "Também, você pode se registrar e enviar perguntar para a %slista de e-mail"
+#~ "%s."
+
+#~ msgid "Ping us on IRC"
+#~ msgstr "Nos escreva no IRC"
+
+#~ msgid "congratulation"
+#~ msgstr "parabens"
+
+#~ msgid "inicio"
+#~ msgstr "inicio"
+
+#~ msgid "Skeleton Application"
+#~ msgstr "ii"
+
+#~ msgid "Auth"
+#~ msgstr "Autenticação"
+
+#~ msgid "Exception"
+#~ msgstr "Exceção"

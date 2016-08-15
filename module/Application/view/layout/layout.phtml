@@ -1,0 +1,146 @@
+<?php echo $this->doctype(); ?>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="google-site-verification" content="WFq7PUwVBGxtv6viGonoeT2whG9H0bv580QikidBpM0" />
+        <meta name="norton-safeweb-site-verification" content="tsdxzj9qsv8n40xpf91ks0zk-uxt5bvpazrz907p3hy0-62h598-rl5v96--j8foijkr5tn6modtob2di-rtgwtj7hssvzt7-4my4-sa446o08ltg23wjc8kpszj8rs4" />
+        <?php echo $this->headTitle('dinispt '. $this->translate('Real Estate imo4.com',__NAMESPACE__,'en_US'))->setSeparator(' - ')->setAutoEscape(false) ?>
+  
+        
+                <?php 
+         $this->placeholder('description')->append($this->translate('www.imo4.com your real state website easy to use, in the imo4.com you can find houses,apartments,stores,industry, for rent and to sell.'));
+        echo $this->headMeta()
+            ->appendName('viewport', 'width=1000, initial-scale=1.2')
+            ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')         
+            ->appendName('description',$this->placeholder('description'))
+            ->appendName('keywords',$this->translate('imo4,flats,houses,to let,to rent,sell,buy,real estate,farms,land,urban land,apartaments,landlord,tenant'))
+            ->appendName('author','Pedro Leite Pereira')
+            ->setCharset('UTF-8');
+        ?>
+        
+        	<!-- Bootstrap itself -->
+	<!--<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">-->
+
+	<!-- Custom styles -->
+	<!--<link rel="stylesheet" href="assets/css/magister.css">-->
+
+	<!-- Fonts -->
+	<!--<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+	<!--<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>-->
+        
+        
+
+        <!-- Le styles -->
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/icon.ico'))
+                        ->prependStylesheet($this->basePath() . '/css/magister.css')   
+                        ->prependStylesheet($this->basePath() . '/css/font-awesome.min.css')   
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap-theme.min.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css')
+                        ->prependStylesheet($this->basePath() . '/css/style.css')
+                        ->prependStylesheet($this->basePath() . '/css/skel.css')
+                        ->prependStylesheet($this->basePath() . '/css/style-xlarge.css')
+                  ?>
+     
+      
+        <!-- Scripts -->
+<!--     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>-->
+        
+        
+            <?php echo $this->headScript()
+            ->prependFile($this->basePath() . '/js/bootstrap.min.js')
+            ->prependFile($this->basePath() . '/js/jquery.min.js')
+            //->prependFile($this->basePath() . '/js/jquery-1.12.0.min.js')
+            ////->prependFile($this->basePath() . '/js/respond.min.js', 'text/javascript', array('conditional' => 'lt IE 9',))
+            ////->prependFile($this->basePath() . '/js/html5shiv.js',   'text/javascript', array('conditional' => 'lt IE 9',))
+            ////->prependFile($this->basePath() . '/js/skel.min.js')
+            ////->prependFile($this->basePath() . '/js/skel-layers.min.js')
+            ////->prependFile($this->basePath() . '/js/init.js')
+//            ->prependFile($this->basePath() . '/js/box/jquery.bxslider.min.js')
+        ; ?>
+
+    </head>
+    <body>
+        
+                <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82344212-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<nav class="mainmenu">
+	<div class="container">
+            	<header id="header">
+				
+				<nav id="nav">
+					<ul>
+						<li><a href="<?php echo $this->url('home') ?>" class="button special"><?php echo $this->translate('Home') ?></a></li>
+                                     
+                                        </ul>
+             
+				</nav>
+			
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+		
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+			
+                         <li><a href="<?php echo $this->url('home') ?>" class="navactive"><?php echo $this->translate('Home') ?></a></li>
+                         <li><a href="<?php echo $this->url('application/faircalc') ?>"><?php echo $this->translate('Fair Calc') ?></a></li>                                      
+
+            
+			</ul>
+		</div>
+
+                    
+                    </header>
+	</div>
+
+</nav>
+	
+
+
+
+
+
+
+       <?php
+
+                        
+                      echo $this->content;
+                      
+                      
+        ?>  
+    
+
+<?php
+
+    $stringm=$this->basePath().'/js/modernizr.custom.72241.js';
+
+?>
+
+
+
+</body>
+
+
+       
